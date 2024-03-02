@@ -1,0 +1,24 @@
+bugs
+1. show countdown by clicking start button - check
+2. 3 2 1 0 then 0 chole jacche na - check
+3. finished box in center of the page - check
+4. history 3 coloumn in laptop 1 col in mobile - check
+5. seconds show in integer not floating - check
+
+bonus marks
+1. count mistakes in finished box - check
+2. git commit 10 minimum - check
+3. blog html file create - check
+
+q1. local storage vs session storage
+q2. global scope vs block scope
+q3. eventloop in js
+q4. kotovabe undefined return pawa jay
+
+
+submission
+Github repository link : https://github.com/programming-hero-web-course1/b6-type-monster-debug-assignment-EyafiNeo
+Live site link main: https://rushtype.netlify.app/
+Live site link blog: https://rushtype.netlify.app/blog.html
+
+optional type speed check - check

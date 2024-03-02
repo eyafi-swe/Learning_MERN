@@ -1,0 +1,4 @@
+1. How js code run in browser?
+2. what the heck is event loop
+3. what is cookies
+4. local vs session storage vs cookies

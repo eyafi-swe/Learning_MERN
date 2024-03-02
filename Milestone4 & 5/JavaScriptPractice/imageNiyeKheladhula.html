@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Niye Khela Dhula</title>
+</head>
+<body>
+    <img src="images/1.jpg" alt="" id="photo" height="200px" width="200px">
+
+    <script>
+        document.getElementById('photo').addEventListener('mouseenter',function(){
+            console.log('Mouse entered');
+            document.getElementById('photo').removeAttribute('src');
+            document.getElementById('photo').setAttribute('src','images/2.png');
+        })
+
+        document.getElementById('photo').addEventListener('mouseleave',function(){
+            console.log('Mouse Left');
+            document.getElementById('photo').removeAttribute('src');
+            document.getElementById('photo').setAttribute('src','images/1.jpg');
+        })
+    </script>
+</body>
+</html>

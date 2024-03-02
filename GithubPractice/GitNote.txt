@@ -1,0 +1,32 @@
+for first time in an account need to config
+
+git config --global user.emain "email of account"
+
+git config --global user.name "username of account"
+
+
+
+git push command
+
+git add .
+git commit -m "Comment"
+git push
+
+
+git branch commands
+
+git branch branch_name  // to create a branch
+git branch -d branch_name // to delete branch
+git checkout -b branch_name // create and switch to new branch
+git checkout branch_name //switch to a branch
+git merge branch_name //to merge with active branch
+
+to push from another branch after changing anything
+git add .
+git commit -m "Comment"
+git push --set-upstream origin branch_name // for first time.. after that just git push
+then need to merge
+switch to main branch, merge and push
+git checkout main
+git merge branch_name
+git push

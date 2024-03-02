@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyPhone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MyPhone</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex justify-content-end" id="navbarSupportedContent">
+
+                    <input class="form-control me-2 w-25" type="search" placeholder="Search Phone" id="search-field"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" id="search-btn">Search</button>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="mt-5 container">
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="phone-container">
+                
+
+            </div>
+        </section>
+        <section class="mt-5 d-none" id="mobile-nai">
+            <h3 class="text-center text-danger " >Mobile Nai Vai!!</h3>
+            <h3 class="text-center text-danger " >Onno Brand Search Koren 🥲</h3>
+            
+        </section>
+
+    </main>
+<section id="spinner" class="d-none" >
+    <div class="d-flex justify-content-center align-items-center"style="height: 300px;">
+        <div class="spinner-grow text-info" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+    </div>
+    
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
